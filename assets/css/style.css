@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+
+body {position: relative; background: #141621; color: #FAFAFA;}
+
+header{
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+table{
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  background: #1D2030;
+  /* background: #202227; */
+}
+
+table *{
+  color: #FAFAFA;
+}
+
+table th{
+  vertical-align: center;
+}
+
+table img, .modal img{
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.modal label, .modal input, .modal-title{
+  color: #141621;
+}
+
+.modal input{
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.modal img{
+  margin-top: 20px;
+}
+
+.modal button{
+  width: 100%;
+}
